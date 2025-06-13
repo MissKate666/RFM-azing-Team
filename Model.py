@@ -32,7 +32,7 @@ def Gemini(model_input: str) -> str:
     """
     # --- Определение API-ключа и прокси ---
     # API-ключ для доступа к Gemini и URL прокси для обхода ограничений
-    API_KEY = "AIzaSyAwWoTXYsfdb0p3jLr96w12ApEM6W37T4A"  # Ключ для API Gemini
+    API_KEY = "ЗДЕСЬ_ВАШ_ТОКЕН"  # Ключ для API Gemini
     PROXY_URL = "http://45.12.150.82:8080"  # Адрес прокси-сервера
 
     # --- Настройка прокси ---
