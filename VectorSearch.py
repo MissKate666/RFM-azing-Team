@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 # --- Авторизация в Hugging Face ---
 # Устанавливает токен для доступа к моделям Hugging Face
-HF_TOKEN = "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"  # Токен для доступа к моделям
+HF_TOKEN = "ЗДЕСЬ_ВАШ_ТОКЕН"  # Токен для доступа к моделям
 login(HF_TOKEN)
 logger.info("Авторизация в Hugging Face выполнена.")
 
@@ -24,7 +24,7 @@ logger.info("Авторизация в Hugging Face выполнена.")
 DB_PARAMS = {
     "dbname": "RFM_Databases",
     "user": "postgres",
-    "password": "Ip1011228",
+    "password": "ЗДЕСЬ_ПАРОЛЬ_ОТ_БД",
     "host": "localhost",
     "port": 5432
 }
