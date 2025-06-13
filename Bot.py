@@ -28,17 +28,17 @@ from telegram.error import RetryAfter, BadRequest
 # Устанавливаются ключевые параметры: Telegram-токен, данные для подключения к PostgreSQL
 # --- Настройки бота ---
 # Токен Telegram бота и параметры подключения к базе данных
-TOKEN = '8062418222:AAEdIVP15v0jMN11BeoWo1LG0i6WWceAGb8'
+TOKEN = 'ЗДЕСЬ_ВАШ_ТОКЕН'
 DB_PARAMS = {
     "dbname": "RFM_Databases",
     "user": "postgres",
-    "password": "Ip1011228",
+    "password": "ЗДЕСЬ_ПАРОЛЬ_ОТ_БД",
     "host": "localhost",
     "port": 5432
 }
-DEVELOPER_EMAIL = "katrin.planshet@gmail.com"  # Email для обратной связи
-SMTP_EMAIL = "katrin.planshet@gmail.com"  # Email для отправки писем
-SMTP_PASSWORD = "cgqg yiem lnib klqv"  # Пароль для SMTP (нужен App Password для Gmail)
+DEVELOPER_EMAIL = "ЗДЕСЬ_ПОЧТА_АДМИНА"  # Email для обратной связи
+SMTP_EMAIL = "ЗДЕСЬ_ПОЧТА_АДМИНА"  # Email для отправки писем
+SMTP_PASSWORD = "ЗДЕСЬ_ПАРОЛЬ_ОТ_ПОЧТЫ"  # Пароль для SMTP (нужен App Password для Gmail)
 
 
 # === Интерфейс и локализация ===
